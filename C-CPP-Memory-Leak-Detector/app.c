@@ -69,7 +69,7 @@ int main(int argc, char **argv)
     student_t *ronak = xcalloc(object_db, "student_t", 1);
     strncpy(ronak->stud_name, "ronak", strlen("ronak"));
 
-    emp_t *john = xcalloc(object_db, "emp_t", 2);
+    emp_t *sonu = xcalloc(object_db, "emp_t", 2);
     mld_set_dynamic_object_as_root(object_db, john);
     john->p = xcalloc(object_db, "int", 1);
     john->p = NULL;
